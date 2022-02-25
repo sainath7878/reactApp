@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.success {
+  color: rgb(161, 161, 55);
+  font-size: 1.2rem;
+}
+
+.failure {
+  color: red;
+  font-size: 1.2rem;
+}
+
+button {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.edit {
+  border: none;
+  padding: 2px 5px;
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0 auto;
+  width: 40%;
+}
+ul li {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: baseline;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid gray;
+}
